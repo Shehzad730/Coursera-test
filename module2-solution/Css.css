@@ -4,6 +4,7 @@ h1{ text-align: center;}
 section {border: 2px solid black;
          margin: 15px;
          background-color: grey;
+         font-family: sans-serif;
          
 }
 span {border: 1px solid black;
