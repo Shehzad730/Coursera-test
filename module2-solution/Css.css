@@ -1,26 +1,46 @@
-* {box-sizing: border-box;}
-h1{ text-align: center;}
+* { box-sizing: border-box;}
 
-section {border: 2px solid black;
-         margin: 15px;
-         background-color: grey;
-         font-family: sans-serif;
-         
+h1{ text-align: center;
+    font-family: sens-serif;
 }
-span {border: 1px solid black;
-      text-align: center;
-      float: right;
-      width: 100px;
-      position: relative;
-      right: 0px;
+.container {border: 2px solid black;
+            background-color: grey;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
 }
-#sp1{background-color: pink;}
-#sp2{background-color: red;}
-#sp3{background-color: yellow;}
+
+
+#chicken { border: 1px solid black;
+           background-color: pink;
+           width: 30%;
+           font-weight: bold;
+           text-align: center;
+           margin-left: 70%;
+           font-size: 125%;
+}
+
+#beef {    border: 1px solid black;
+           background-color: Red;
+           width: 30%;
+           font-weight: bold;
+           text-align: center;
+           margin-left: 70%;
+           font-size: 125%;}
+           
+#sushi {   border: 1px solid black;
+           background-color: yellow;
+           width: 30%;
+           font-weight: bold;
+           text-align: center;
+           margin-left: 70%;
+           font-size: 125%;}
+           
+p{ padding: 10px;}
 
 .row {width: 100%;}
 
-/* Desktop view */
+/*         Desktop view       */
 
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -66,7 +86,7 @@ span {border: 1px solid black;
 
 }
 
-/* Tablet view */
+/*         Tablet view        */
 
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -111,9 +131,9 @@ span {border: 1px solid black;
   }
 }
 
-/* Mobile view */
+/*           Mobile view           */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
  	float: left;
   }
