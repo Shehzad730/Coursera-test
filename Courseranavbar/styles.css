@@ -7,4 +7,4 @@ body {background-color: maroon;
               border: 0;
 }
 
-#logo-img {background: url('storage/emulated/0/HTML/COURSERANAVBAR/starofdavid.png');}
+#logo-img {background: url('/starofdavid.png');}
