@@ -12,10 +12,11 @@ body {
     background-color: #c98715;
     border-radius: 0;
     border: 0;
+    
 }
 
 #header-nav button {
-    margin-top: 22px;
+    margin-top:-24px;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -34,7 +35,6 @@ body {
 
 .navbar-brand h1 {
     color: #7d1913;
-    font-family: 'Abril Fatface', cursive;
     font-weight: bolder;
     font-size: 1.8em;
 }
@@ -49,7 +49,7 @@ body {
 }
 
 #nav-list a {
-    /*text-align: center;*/
+    text-align: center; 
     font-weight: bolder;
     color: #282828;
     font-size: 1.2em;
